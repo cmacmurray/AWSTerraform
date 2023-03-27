@@ -9,7 +9,7 @@ terraform {
   }
 
   cloud {
-    organization = "OmniRexTech"
+    organization = "OmniRexTechnology"
 
     workspaces {
       name = "AWSTerraform"
