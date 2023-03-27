@@ -12,7 +12,7 @@ terraform {
     organization = "OmniRexTech"
 
     workspaces {
-      name = "AWSTerraformInfra"
+      name = "AWSTerraform"
     }
   }
 }
