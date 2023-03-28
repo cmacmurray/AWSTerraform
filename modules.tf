@@ -3,19 +3,12 @@ module "zones" {
   version = "~> 2.0"
 
   zones = {
-    "terraform-omnirex.com" = {
+    "omnirex.com" = {
       comment = "Omnirex main public zone file."
       tags = {
-        env = "production"
+        env       = "production"
+        ManagedBy = "Terraform"
       }
     }
-
-    "omnirex.com" = {
-      comment = "omnirex.com"
-    }
-  }
-
-  tags = {
-    ManagedBy = "Terraform"
   }
 }
